@@ -43,11 +43,7 @@ else
 }
 console.log(output);
 }
-
-}
- 
-
-  for (let i = 1; i<=5;i++)
+for (let i = 1; i<=5;i++)
   {
     const humanSelection = getHumanChoice();
     const computerSelection = getComputerChoice();
@@ -64,4 +60,10 @@ console.log(output);
   }
   else { console.log ('the computer won')}
 
+
+
+}
+ playGame();
+
+  
 
