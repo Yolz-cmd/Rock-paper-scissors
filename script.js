@@ -12,7 +12,8 @@ function getHumanChoice()
   let human = prompt ("Enter your choice of the game ?");
   return human;
 }
-
+function playGame()
+{
 let humanScore = 0;
 let computerScore = 0;
 
@@ -43,7 +44,7 @@ else
 console.log(output);
 }
 
-
+}
  
 
   for (let i = 1; i<=5;i++)
